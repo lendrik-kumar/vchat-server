@@ -9,7 +9,7 @@ endpoints:
     port: 8080
     # +required Type of the traffic this endpoint is accepting. Example: REST, GraphQL, etc.
     # Allowed values: REST, GraphQL, GRPC, WebSocket
-    type: WebSocket
+    type: WS
     # +optional Network level visibility of this endpoint. Defaults to Project
     # Accepted values: Project|Organization|Public.
     networkVisibility: Public
